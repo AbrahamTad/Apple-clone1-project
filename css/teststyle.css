@@ -1,0 +1,12 @@
+.links ul li a:after {
+  font-weight: 600;
+  font-family: "FontAwesome";
+  content: "\f105"; /* FontAwesome icon code */
+  padding-left: 10px; /* Adjust spacing between text and icon */
+}
+.links ul li a:after {
+  font-weight: 600;
+  font-family: "FontAwesome";
+  content: "\f105";
+  padding-left: 10px;
+} 

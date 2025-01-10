@@ -1,0 +1,329 @@
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.nav-wrapper ul li a:hover{
+  color:lightgoldenrodyellow
+}
+
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
+
+/* my code start from here*/
+
+/* Main Highlight */
+/* .main-highlight {
+  background-size: initial;
+background-color: #fafafa;
+background-position: bottom;
+width: 100%;
+}  */
+.model-name {
+  font-size: 0.85em;
+}
+.product-name {
+  font-weight: 600;
+  font-size: 50px;
+}
+.description {
+  font-size: 1.3em;
+   padding-bottom: 15px 0;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links {
+  padding: 15px 0;
+}
+.links ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.links ul li a {
+  color: #06c;
+  text-decoration: none;
+} 
+ .links ul li a:hover {
+  color: #000; /* Sets the text color to black (#000) on hover */
+ 
+}
+.links ul li a:after {
+  font-weight: 600;
+  font-family: "FontAwesome";
+  content: "\f105";
+  padding-left: 10px;
+}  
+
+/* iphone11-pro Section */
+.iphone11-pro{
+  background-image: url(../images/home/iphone11-pro-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* text-align: center; */
+  padding:65px 20px;
+  color: #fff;
+  
+}
+.iphone11-pro .links ul li a:hover {
+  color: #fff; 
+}
+.price {
+  color: #86868b;
+  font-size: 0.85em;
+}
+/*  iphone11 Section */
+.iphone11{
+  background-image: url(../images/home/iphone11-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  /* padding: 65px 20px; */
+}
+  /*  section for Apple Watch Series 5 and Apple Card  */
+
+.watchSeries5-AppleCard .left{
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 0.5% 0% 1%;
+  padding-top: 54px;
+
+}
+.watchSeries5-AppleCard .left{
+  background-image: url(../images/home/watch-series-5.jpg);
+  width: 100%;
+   
+}
+
+.right {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+}
+
+.watchSeries5-AppleCard .right{
+  background-image: url(../images/home/apple-card.jpg);
+  width: 100%;
+
+}
+
+/* Fifth section for Apple TV and AirPods Pro */
+.tv-AirPod .left{
+  background-image:url(../images/home/apple-tv-background.jpg);
+  background-position: center;
+  
+  }
+  /* Watch more link styling */
+.watch-more a {
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
+/* Watch more icon */
+.watch-more a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+
+.tv-AirPod .right{
+background-image: url(../images/home/air-pods.jpg);
+width: 100%;
+color: white;
+background-size: initial;
+background-color: #000;
+background-position: bottom;
+
+}
+
+
+.tv-AirPod .links ul li a:hover {
+  color: #fff; 
+}
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.tvshow-logo {
+  padding: 180px 0 200px;
+}
+
+/*  Sixth Highlight Section */
+
+.MacBookPro-iPad .left{
+  background-image: url(../images/home/macbook-pro.jpg);
+
+background-size: initial;
+background-color: #fafafa;
+background-position: bottom;
+background-repeat: no-repeat;
+height: 580px;
+
+}
+.MacBookPro-iPad .right{
+  background-image: url(../images/home/new-ipad.jpg);
+  width: 100%;
+  background-size: initial;
+  background-position: bottom;
+}
+
+
+
